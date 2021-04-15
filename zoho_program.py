@@ -12,6 +12,7 @@ split_words=inp.split(mid_char)
 #print(mid_char)
 txt=''
 mid=[mid_char]
+print(mid_char.rjust(len(inp)))
 for i in range(len(split_words[1])):
     txt1='{}'.format(split_words[1][i])
     txt=txt+txt1
